@@ -1,0 +1,18 @@
+# Binaries are uploaded as release assets, never committed.
+release/
+*.exe
+*.sig
+*.msi
+*.zip
+latest.json
+SHA256SUMS.txt
+# Never commit keys or secrets.
+*.key
+*.pem
+*.env
+.env*
+secrets.json
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
